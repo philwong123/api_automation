@@ -1,0 +1,41 @@
+[ {
+  "uid" : "2f667d29c6461e3c",
+  "name" : "TestDAC.test_dac_01",
+  "time" : {
+    "start" : 1560330073604,
+    "stop" : 1560330073651,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "948a20850a51b372",
+  "name" : "TestDAC.test_dac_04",
+  "time" : {
+    "start" : 1560330074285,
+    "stop" : 1560330074313,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8de354c93a89b195",
+  "name" : "TestDAC.test_dac_02",
+  "time" : {
+    "start" : 1560330073655,
+    "stop" : 1560330073698,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2403fbcd9a19fa5",
+  "name" : "TestDAC.test_dac_03",
+  "time" : {
+    "start" : 1560330073700,
+    "stop" : 1560330074280,
+    "duration" : 580
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

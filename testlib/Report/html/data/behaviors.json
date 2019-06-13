@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "DAC_demo1",
+    "children" : [ {
+      "name" : "test_srory_1",
+      "children" : [ {
+        "name" : "TestDAC.test_dac_01",
+        "uid" : "2f667d29c6461e3c",
+        "parentUid" : "f4934a1be6811e74eccc377a9509d3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560330073604,
+          "stop" : 1560330073651,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4934a1be6811e74eccc377a9509d3ca"
+    }, {
+      "name" : "test_story_4",
+      "children" : [ {
+        "name" : "TestDAC.test_dac_04",
+        "uid" : "948a20850a51b372",
+        "parentUid" : "fbb4be40393da2953a5de5314ac709bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560330074285,
+          "stop" : 1560330074313,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fbb4be40393da2953a5de5314ac709bb"
+    } ],
+    "uid" : "b35931da21fa072b3173ee5fa2eed462"
+  }, {
+    "name" : "DAC_demo2",
+    "children" : [ {
+      "name" : "test_story_2",
+      "children" : [ {
+        "name" : "TestDAC.test_dac_02",
+        "uid" : "8de354c93a89b195",
+        "parentUid" : "1a4ab26cf5e145c3045e2199065c406f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560330073655,
+          "stop" : 1560330073698,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a4ab26cf5e145c3045e2199065c406f"
+    } ],
+    "uid" : "07c97e69904ad73c83f4e27cdeacbf8b"
+  }, {
+    "name" : "DAC_demo3",
+    "children" : [ {
+      "name" : "test_story_3",
+      "children" : [ {
+        "name" : "TestDAC.test_dac_03",
+        "uid" : "f2403fbcd9a19fa5",
+        "parentUid" : "2ab5f86b41546891ef83b3d8e82fe286",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560330073700,
+          "stop" : 1560330074280,
+          "duration" : 580
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ab5f86b41546891ef83b3d8e82fe286"
+    } ],
+    "uid" : "3d74c79d9e85b9e2d103346ee601934e"
+  } ]
+}

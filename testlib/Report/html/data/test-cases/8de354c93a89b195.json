@@ -1,0 +1,97 @@
+{
+  "uid" : "8de354c93a89b195",
+  "name" : "TestDAC.test_dac_02",
+  "fullName" : "test_dac.TestDAC.test_dac_02",
+  "historyId" : "41e8571bb27bb1ad277776531297bff4",
+  "time" : {
+    "start" : 1560330073655,
+    "stop" : 1560330073698,
+    "duration" : 43
+  },
+  "description" : "\n        用例描述：2. 获取所有设备历史信息\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：2. 获取所有设备历史信息\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "reponse",
+      "time" : {
+        "start" : 1560330073657,
+        "stop" : 1560330073698,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a0b9cb3ae401b6fc",
+      "name" : "Captured log call",
+      "source" : "a0b9cb3ae401b6fc.txt",
+      "type" : "text/plain",
+      "size" : 8037
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DAC_demo2"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Admin-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "story",
+    "value" : "test_story_2"
+  }, {
+    "name" : "thread",
+    "value" : "11512-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_dac"
+  }, {
+    "name" : "testClass",
+    "value" : "test_dac"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestDAC.test_dac_02"
+  }, {
+    "name" : "package",
+    "value" : "test_dac"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8de354c93a89b195.json",
+  "parameterValues" : [ ]
+}

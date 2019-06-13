@@ -1,0 +1,13 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_dac.TestDAC.test_dac_01","47","
+        用例描述：1. 获取所有设备实时信息
+        "
+"passed","test_dac.TestDAC.test_dac_04","28","
+        用例描述：4. 获取所有设备的产量
+        "
+"passed","test_dac.TestDAC.test_dac_02","43","
+        用例描述：2. 获取所有设备历史信息
+        "
+"passed","test_dac.TestDAC.test_dac_03","580","
+        用例描述：3. 获取设备的时长信息
+        "

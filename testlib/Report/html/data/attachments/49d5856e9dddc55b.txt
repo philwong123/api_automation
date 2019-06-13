@@ -1,0 +1,2 @@
+test_dac.py                122 INFO     START TEST CASE: DAC_04
+test_dac.py                 23 INFO     RESPONSE: {'Values': '0', 'time': '2019-06-12 17:01:08', 'returnCode': '200', 'type': 'productivity'}

@@ -1,0 +1,103 @@
+{
+  "uid" : "2f667d29c6461e3c",
+  "name" : "TestDAC.test_dac_01",
+  "fullName" : "test_dac.TestDAC.test_dac_01",
+  "historyId" : "aa81cba71622be06e3959010486cc5d8",
+  "time" : {
+    "start" : 1560330073604,
+    "stop" : 1560330073651,
+    "duration" : 47
+  },
+  "description" : "\n        用例描述：1. 获取所有设备实时信息\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：1. 获取所有设备实时信息\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "reponse",
+      "time" : {
+        "start" : 1560330073611,
+        "stop" : 1560330073651,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "29708aa8ff2557ed",
+      "name" : "Captured log setup",
+      "source" : "29708aa8ff2557ed.txt",
+      "type" : "text/plain",
+      "size" : 66
+    }, {
+      "uid" : "a642418944bcedff",
+      "name" : "Captured log call",
+      "source" : "a642418944bcedff.txt",
+      "type" : "text/plain",
+      "size" : 225
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DAC_demo1"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Admin-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "story",
+    "value" : "test_srory_1"
+  }, {
+    "name" : "thread",
+    "value" : "11512-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_dac"
+  }, {
+    "name" : "testClass",
+    "value" : "test_dac"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestDAC.test_dac_01"
+  }, {
+    "name" : "package",
+    "value" : "test_dac"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f667d29c6461e3c.json",
+  "parameterValues" : [ ]
+}

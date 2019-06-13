@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Admin-PC",
+    "children" : [ {
+      "name" : "11512-MainThread",
+      "children" : [ {
+        "name" : "TestDAC.test_dac_01",
+        "uid" : "2f667d29c6461e3c",
+        "parentUid" : "4596c74a17d2caaf48139901e2fe7f59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560330073604,
+          "stop" : 1560330073651,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestDAC.test_dac_04",
+        "uid" : "948a20850a51b372",
+        "parentUid" : "4596c74a17d2caaf48139901e2fe7f59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560330074285,
+          "stop" : 1560330074313,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestDAC.test_dac_02",
+        "uid" : "8de354c93a89b195",
+        "parentUid" : "4596c74a17d2caaf48139901e2fe7f59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560330073655,
+          "stop" : 1560330073698,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestDAC.test_dac_03",
+        "uid" : "f2403fbcd9a19fa5",
+        "parentUid" : "4596c74a17d2caaf48139901e2fe7f59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560330073700,
+          "stop" : 1560330074280,
+          "duration" : 580
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4596c74a17d2caaf48139901e2fe7f59"
+    } ],
+    "uid" : "84c9410e8fd8faac8de383825393c942"
+  } ]
+}
