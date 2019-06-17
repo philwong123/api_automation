@@ -1,7 +1,6 @@
-#encoding: utf-8
+# -*- coding: utf-8 -*-
 import json
 import logging
-from testlib.infrastructure.log.test_log import TestLog
 from testlib.infrastructure.common import constants as Consts
 
 
@@ -16,6 +15,15 @@ class Assertions(object):
             return True
         except:
             logging.error("statusCode error, expected_code is {}, statusCode is {} ".format(expected_code, code))
+            Consts.RESULT_LIST.append('fail')
+            raise
+
+    def assert_value_not_null(self, value):
+        try:
+            assert value is not []
+            return True
+        except:
+            logging.error("value error, return value {}, is null!".format(value))
             Consts.RESULT_LIST.append('fail')
             raise
 

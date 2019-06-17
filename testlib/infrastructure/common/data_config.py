@@ -1,4 +1,4 @@
-#coding: utf-8
+# coding: utf-8
 
 class GlobalVar(object):
     #case_id

@@ -1,2 +1,0 @@
-test_dac.py                 50 INFO     START TEST CASE: DAC_01
-test_dac.py                 23 INFO     RESPONSE: {'type': 'Realtime', 'time': '2019-06-12 17:01:07', 'info': '无此设备', 'machCode': 0, 'returnCode': '200'}

@@ -1,0 +1,97 @@
+{
+  "uid" : "69814adca1e8837f",
+  "name" : "TestDAC.test_dac_02",
+  "fullName" : "test_dac.TestDAC.test_dac_02",
+  "historyId" : "41e8571bb27bb1ad277776531297bff4",
+  "time" : {
+    "start" : 1560506846680,
+    "stop" : 1560506846735,
+    "duration" : 55
+  },
+  "description" : "\n        用例描述：2. 获取所有设备历史信息，根据用户传入的token，采集参数，时间段以及设备编号获取该时间段内该设备采集参数的所有采集记录\n        \"app\": \"2\"\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：2. 获取所有设备历史信息，根据用户传入的token，采集参数，时间段以及设备编号获取该时间段内该设备采集参数的所有采集记录\n    &quot;app&quot;: &quot;2&quot;\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "reponse",
+      "time" : {
+        "start" : 1560506846681,
+        "stop" : 1560506846734,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bd38be51256df316",
+      "name" : "Captured log call",
+      "source" : "bd38be51256df316.txt",
+      "type" : "text/plain",
+      "size" : 69
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DAC接口"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Admin-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Block"
+  }, {
+    "name" : "story",
+    "value" : "历史数据接口"
+  }, {
+    "name" : "thread",
+    "value" : "10620-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_dac"
+  }, {
+    "name" : "testClass",
+    "value" : "test_dac"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestDAC.test_dac_02"
+  }, {
+    "name" : "package",
+    "value" : "test_dac"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69814adca1e8837f.json",
+  "parameterValues" : [ ]
+}

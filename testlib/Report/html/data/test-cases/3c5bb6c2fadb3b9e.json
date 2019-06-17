@@ -1,15 +1,15 @@
 {
-  "uid" : "8de354c93a89b195",
-  "name" : "TestDAC.test_dac_02",
-  "fullName" : "test_dac.TestDAC.test_dac_02",
-  "historyId" : "41e8571bb27bb1ad277776531297bff4",
+  "uid" : "3c5bb6c2fadb3b9e",
+  "name" : "TestDAC.test_dac_09",
+  "fullName" : "test_dac.TestDAC.test_dac_09",
+  "historyId" : "5831594d284cb90ce1e4419dd5e6f0a0",
   "time" : {
-    "start" : 1560330073655,
-    "stop" : 1560330073698,
-    "duration" : 43
+    "start" : 1560506851282,
+    "stop" : 1560506851320,
+    "duration" : 38
   },
-  "description" : "\n        用例描述：2. 获取所有设备历史信息\n        ",
-  "descriptionHtml" : "<pre><code>    用例描述：2. 获取所有设备历史信息\n</code></pre>\n",
+  "description" : "\n        用例描述：9. 获取设备产量,\"app\": \"23\"\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：9. 获取设备产量,&quot;app&quot;: &quot;23&quot;\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "reponse",
       "time" : {
-        "start" : 1560330073657,
-        "stop" : 1560330073698,
-        "duration" : 41
+        "start" : 1560506851283,
+        "stop" : 1560506851320,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,11 +32,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "a0b9cb3ae401b6fc",
+      "uid" : "b2c593291bde8ff9",
       "name" : "Captured log call",
-      "source" : "a0b9cb3ae401b6fc.txt",
+      "source" : "b2c593291bde8ff9.txt",
       "type" : "text/plain",
-      "size" : 8037
+      "size" : 69
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -47,7 +47,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "DAC_demo2"
+    "value" : "DAC接口"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -59,13 +59,13 @@
     "value" : "cpython3"
   }, {
     "name" : "severity",
-    "value" : "Normal"
+    "value" : "Critical"
   }, {
     "name" : "story",
-    "value" : "test_story_2"
+    "value" : "设备产量"
   }, {
     "name" : "thread",
-    "value" : "11512-MainThread"
+    "value" : "10620-MainThread"
   }, {
     "name" : "suite",
     "value" : "test_dac"
@@ -74,7 +74,7 @@
     "value" : "test_dac"
   }, {
     "name" : "testMethod",
-    "value" : "TestDAC.test_dac_02"
+    "value" : "TestDAC.test_dac_09"
   }, {
     "name" : "package",
     "value" : "test_dac"
@@ -87,11 +87,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8de354c93a89b195.json",
+  "source" : "3c5bb6c2fadb3b9e.json",
   "parameterValues" : [ ]
 }

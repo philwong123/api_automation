@@ -1,0 +1,105 @@
+{
+  "uid" : "ac289bb8b474f9e6",
+  "name" : "TestDAC.test_dac_10",
+  "fullName" : "test_dac.TestDAC.test_dac_10",
+  "historyId" : "b503a93c7a97706563e8523e631679b2",
+  "time" : {
+    "start" : 1560506851323,
+    "stop" : 1560506851416,
+    "duration" : 93
+  },
+  "description" : "\n        用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: ",
+  "statusTrace" : "self = <test_dac.TestDAC object at 0x0000000004786E10>\n\n    @pytest.allure.feature('DAC接口')\n    @allure.severity('Critical')\n    @allure.story('机器人寻位、焊接状态信息')\n    def test_dac_10(self):\n        \"\"\"\n            用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/\n            \"\"\"\n        case_id = \"机器人寻位、焊接状态信息\"\n        logging.info(\"START TEST CASE: {}\".format(case_id))\n        test = Assertions()\n        request = Send_Request()\n        row = data.get_row_by_id(case_id)\n        is_run = data.get_is_run(row)\n        if is_run:\n            url = data.get_request_url(row)\n            request_data = data.get_request_data(row)\n            token = data.get_token(row)\n            request_data['token'] = token\n        response = self.print_message(url, request_data)\n>       assert test.assert_code(response['body']['returnCode'], '200')\n\n..\\case\\test_dac.py:262: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testlib.infrastructure.common.assertion.Assertions object at 0x0000000004786898>\ncode = '10005', expected_code = '200'\n\n    def assert_code(self, code, expected_code):\n        try:\n>           assert code == expected_code\nE           AssertionError\n\n..\\infrastructure\\common\\assertion.py:14: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: ",
+    "statusTrace" : "self = <test_dac.TestDAC object at 0x0000000004786E10>\n\n    @pytest.allure.feature('DAC接口')\n    @allure.severity('Critical')\n    @allure.story('机器人寻位、焊接状态信息')\n    def test_dac_10(self):\n        \"\"\"\n            用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/\n            \"\"\"\n        case_id = \"机器人寻位、焊接状态信息\"\n        logging.info(\"START TEST CASE: {}\".format(case_id))\n        test = Assertions()\n        request = Send_Request()\n        row = data.get_row_by_id(case_id)\n        is_run = data.get_is_run(row)\n        if is_run:\n            url = data.get_request_url(row)\n            request_data = data.get_request_data(row)\n            token = data.get_token(row)\n            request_data['token'] = token\n        response = self.print_message(url, request_data)\n>       assert test.assert_code(response['body']['returnCode'], '200')\n\n..\\case\\test_dac.py:262: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testlib.infrastructure.common.assertion.Assertions object at 0x0000000004786898>\ncode = '10005', expected_code = '200'\n\n    def assert_code(self, code, expected_code):\n        try:\n>           assert code == expected_code\nE           AssertionError\n\n..\\infrastructure\\common\\assertion.py:14: AssertionError",
+    "steps" : [ {
+      "name" : "reponse",
+      "time" : {
+        "start" : 1560506851324,
+        "stop" : 1560506851341,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b4786b4c454ccb8e",
+      "name" : "Captured log call",
+      "source" : "b4786b4c454ccb8e.txt",
+      "type" : "text/plain",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DAC接口"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Admin-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "story",
+    "value" : "机器人寻位、焊接状态信息"
+  }, {
+    "name" : "thread",
+    "value" : "10620-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_dac"
+  }, {
+    "name" : "testClass",
+    "value" : "test_dac"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestDAC.test_dac_10"
+  }, {
+    "name" : "package",
+    "value" : "test_dac"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ac289bb8b474f9e6.json",
+  "parameterValues" : [ ]
+}

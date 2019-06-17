@@ -1,4 +1,4 @@
-#encoding: utf-8
+# -*- coding: utf-8 -*-
 from testlib.infrastructure.common.get_data import GetData
 
 class Robot_Api(object):

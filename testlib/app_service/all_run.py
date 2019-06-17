@@ -1,4 +1,4 @@
-#coding: utf-8
+# -*- coding: utf-8 -*-
 import requests
 from testlib.app_service.Dac_Api import Dac_Api
 from testlib.infrastructure.common.get_data import GetData

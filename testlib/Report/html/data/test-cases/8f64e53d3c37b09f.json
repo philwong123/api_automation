@@ -1,15 +1,15 @@
 {
-  "uid" : "f2403fbcd9a19fa5",
-  "name" : "TestDAC.test_dac_03",
-  "fullName" : "test_dac.TestDAC.test_dac_03",
-  "historyId" : "6ca36f0151471f0a12b9545443c1c63",
+  "uid" : "8f64e53d3c37b09f",
+  "name" : "TestDAC.test_dac_08",
+  "fullName" : "test_dac.TestDAC.test_dac_08",
+  "historyId" : "46fa2380130be4f889137b8ced8389ba",
   "time" : {
-    "start" : 1560330073700,
-    "stop" : 1560330074280,
-    "duration" : 580
+    "start" : 1560506851253,
+    "stop" : 1560506851279,
+    "duration" : 26
   },
-  "description" : "\n        用例描述：3. 获取设备的时长信息\n        ",
-  "descriptionHtml" : "<pre><code>    用例描述：3. 获取设备的时长信息\n</code></pre>\n",
+  "description" : "\n        用例描述：8. 获取单台设备的信息,\"app\": \"25\"\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：8. 获取单台设备的信息,&quot;app&quot;: &quot;25&quot;\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "reponse",
       "time" : {
-        "start" : 1560330073701,
-        "stop" : 1560330074278,
-        "duration" : 577
+        "start" : 1560506851255,
+        "stop" : 1560506851278,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,11 +32,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "4c7470a2cd302d64",
+      "uid" : "8151caeb860bcf11",
       "name" : "Captured log call",
-      "source" : "4c7470a2cd302d64.txt",
+      "source" : "8151caeb860bcf11.txt",
       "type" : "text/plain",
-      "size" : 472939
+      "size" : 78
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -47,7 +47,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "DAC_demo3"
+    "value" : "DAC接口"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -59,13 +59,13 @@
     "value" : "cpython3"
   }, {
     "name" : "severity",
-    "value" : "Blocker"
+    "value" : "Critical"
   }, {
     "name" : "story",
-    "value" : "test_story_3"
+    "value" : "单台设备的信息"
   }, {
     "name" : "thread",
-    "value" : "11512-MainThread"
+    "value" : "10620-MainThread"
   }, {
     "name" : "suite",
     "value" : "test_dac"
@@ -74,7 +74,7 @@
     "value" : "test_dac"
   }, {
     "name" : "testMethod",
-    "value" : "TestDAC.test_dac_03"
+    "value" : "TestDAC.test_dac_08"
   }, {
     "name" : "package",
     "value" : "test_dac"
@@ -87,11 +87,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "blocker",
+    "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f2403fbcd9a19fa5.json",
+  "source" : "8f64e53d3c37b09f.json",
   "parameterValues" : [ ]
 }

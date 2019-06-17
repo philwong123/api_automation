@@ -4,12 +4,12 @@
     "uid" : "1a170f6650d13a0b360f8f1a2b4b2d20",
     "name" : "test_dac",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 4
+      "total" : 16
     }
   } ]
 }

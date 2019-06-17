@@ -1,4 +1,4 @@
-#encoding: utf-8
+# -*- coding: utf-8 -*-
 
 # 接口全局配置
 API_ENVIRONMENT_DEBUG = 'debug'

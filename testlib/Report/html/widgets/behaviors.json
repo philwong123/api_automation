@@ -1,37 +1,15 @@
 {
-  "total" : 3,
+  "total" : 1,
   "items" : [ {
-    "uid" : "b35931da21fa072b3173ee5fa2eed462",
-    "name" : "DAC_demo1",
+    "uid" : "47537086d76b6b18033f1c90cdb36c4f",
+    "name" : "DAC接口",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "07c97e69904ad73c83f4e27cdeacbf8b",
-    "name" : "DAC_demo2",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "3d74c79d9e85b9e2d103346ee601934e",
-    "name" : "DAC_demo3",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
+      "total" : 16
     }
   } ]
 }

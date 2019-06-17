@@ -1,13 +1,50 @@
 "Status","Name","Duration in ms","Description"
-"passed","test_dac.TestDAC.test_dac_01","47","
-        用例描述：1. 获取所有设备实时信息
+"passed","test_dac.TestDAC.test_dac_08","26","
+        用例描述：8. 获取单台设备的信息,""app"": ""25""
         "
-"passed","test_dac.TestDAC.test_dac_04","28","
-        用例描述：4. 获取所有设备的产量
+"failed","test_dac.TestDAC.test_dac_16","32","
+        用例描述：16. 返回该公司所有设备数据
         "
-"passed","test_dac.TestDAC.test_dac_02","43","
-        用例描述：2. 获取所有设备历史信息
+"passed","test_dac.TestDAC.test_dac_07","61","
+        用例描述：7. 获取单台设备实时信息, ""app"": ""16""
         "
-"passed","test_dac.TestDAC.test_dac_03","580","
-        用例描述：3. 获取设备的时长信息
+"passed","test_dac.TestDAC.test_dac_05","3566","
+        用例描述：5. 获取告警数据,""app"": ""66""
+        "
+"passed","test_dac.TestDAC.test_dac_02","55","
+        用例描述：2. 获取所有设备历史信息，根据用户传入的token，采集参数，时间段以及设备编号获取该时间段内该设备采集参数的所有采集记录
+        ""app"": ""2""
+        "
+"failed","test_dac.TestDAC.test_dac_15","27","
+        用例描述：15. 设备状态判断的公式
+        "
+"failed","test_dac.TestDAC.test_dac_13","22","
+        用例描述：13. 获取所有设备信息
+        "
+"passed","test_dac.TestDAC.test_dac_09","38","
+        用例描述：9. 获取设备产量,""app"": ""23""
+        "
+"failed","test_dac.TestDAC.test_dac_11","21","
+        用例描述：11. 获取极大，极小，平均值
+        "
+"failed","test_dac.TestDAC.test_dac_14","21","
+        用例描述：14. 获取设备时间状态统计
+        "
+"failed","test_dac.TestDAC.test_dac_12","21","
+        用例描述：12. 获取机器人寻位、焊接状态信息
+        "
+"passed","test_dac.TestDAC.test_dac_01","45","
+        用例描述：1. 获取实时数据，""app"": ""1""
+        "
+"passed","test_dac.TestDAC.test_dac_06","701","
+        用例描述：6. 获取变量信息表, ""app"": ""15""
+        "
+"failed","test_dac.TestDAC.test_dac_10","93","
+        用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/
+        "
+"passed","test_dac.TestDAC.test_dac_04","92","
+        用例描述：4. 获取网关信息表，""app"": ""13""
+        "
+"passed","test_dac.TestDAC.test_dac_03","83","
+        用例描述：3. 获取所有设备的信息，""app"": ""12""
         "

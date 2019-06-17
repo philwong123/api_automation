@@ -1,15 +1,15 @@
 {
-  "uid" : "948a20850a51b372",
-  "name" : "TestDAC.test_dac_04",
-  "fullName" : "test_dac.TestDAC.test_dac_04",
-  "historyId" : "cc43b918830ab0dc863915d68f9f29ad",
+  "uid" : "4a0dd3000372a3d9",
+  "name" : "TestDAC.test_dac_05",
+  "fullName" : "test_dac.TestDAC.test_dac_05",
+  "historyId" : "f5ad5cf157f278ba39d0daf758949905",
   "time" : {
-    "start" : 1560330074285,
-    "stop" : 1560330074313,
-    "duration" : 28
+    "start" : 1560506846918,
+    "stop" : 1560506850484,
+    "duration" : 3566
   },
-  "description" : "\n        用例描述：4. 获取所有设备的产量\n        ",
-  "descriptionHtml" : "<pre><code>    用例描述：4. 获取所有设备的产量\n</code></pre>\n",
+  "description" : "\n        用例描述：5. 获取告警数据,\"app\": \"66\"\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：5. 获取告警数据,&quot;app&quot;: &quot;66&quot;\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "reponse",
       "time" : {
-        "start" : 1560330074286,
-        "stop" : 1560330074312,
-        "duration" : 26
+        "start" : 1560506846919,
+        "stop" : 1560506850484,
+        "duration" : 3565
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,11 +32,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "49d5856e9dddc55b",
+      "uid" : "a7503ba5280d84b2",
       "name" : "Captured log call",
-      "source" : "49d5856e9dddc55b.txt",
+      "source" : "a7503ba5280d84b2.txt",
       "type" : "text/plain",
-      "size" : 205
+      "size" : 69
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -47,7 +47,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "DAC_demo1"
+    "value" : "DAC接口"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -59,13 +59,13 @@
     "value" : "cpython3"
   }, {
     "name" : "severity",
-    "value" : "Blocker"
+    "value" : "Critical"
   }, {
     "name" : "story",
-    "value" : "test_story_4"
+    "value" : "告警数据接口"
   }, {
     "name" : "thread",
-    "value" : "11512-MainThread"
+    "value" : "10620-MainThread"
   }, {
     "name" : "suite",
     "value" : "test_dac"
@@ -74,7 +74,7 @@
     "value" : "test_dac"
   }, {
     "name" : "testMethod",
-    "value" : "TestDAC.test_dac_04"
+    "value" : "TestDAC.test_dac_05"
   }, {
     "name" : "package",
     "value" : "test_dac"
@@ -87,11 +87,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "blocker",
+    "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "948a20850a51b372.json",
+  "source" : "4a0dd3000372a3d9.json",
   "parameterValues" : [ ]
 }

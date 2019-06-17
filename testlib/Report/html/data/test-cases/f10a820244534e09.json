@@ -1,15 +1,15 @@
 {
-  "uid" : "2f667d29c6461e3c",
+  "uid" : "f10a820244534e09",
   "name" : "TestDAC.test_dac_01",
   "fullName" : "test_dac.TestDAC.test_dac_01",
   "historyId" : "aa81cba71622be06e3959010486cc5d8",
   "time" : {
-    "start" : 1560330073604,
-    "stop" : 1560330073651,
-    "duration" : 47
+    "start" : 1560506846629,
+    "stop" : 1560506846674,
+    "duration" : 45
   },
-  "description" : "\n        用例描述：1. 获取所有设备实时信息\n        ",
-  "descriptionHtml" : "<pre><code>    用例描述：1. 获取所有设备实时信息\n</code></pre>\n",
+  "description" : "\n        用例描述：1. 获取实时数据，\"app\": \"1\"\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：1. 获取实时数据，&quot;app&quot;: &quot;1&quot;\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "reponse",
       "time" : {
-        "start" : 1560330073611,
-        "stop" : 1560330073651,
-        "duration" : 40
+        "start" : 1560506846632,
+        "stop" : 1560506846673,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,17 +32,17 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "29708aa8ff2557ed",
+      "uid" : "1a4f8b2f0386f1bd",
       "name" : "Captured log setup",
-      "source" : "29708aa8ff2557ed.txt",
+      "source" : "1a4f8b2f0386f1bd.txt",
       "type" : "text/plain",
       "size" : 66
     }, {
-      "uid" : "a642418944bcedff",
+      "uid" : "1760296a1f2aa25e",
       "name" : "Captured log call",
-      "source" : "a642418944bcedff.txt",
+      "source" : "1760296a1f2aa25e.txt",
       "type" : "text/plain",
-      "size" : 225
+      "size" : 69
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 2,
@@ -53,7 +53,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "DAC_demo1"
+    "value" : "DAC接口"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -68,10 +68,10 @@
     "value" : "Critical"
   }, {
     "name" : "story",
-    "value" : "test_srory_1"
+    "value" : "实时数据接口"
   }, {
     "name" : "thread",
-    "value" : "11512-MainThread"
+    "value" : "10620-MainThread"
   }, {
     "name" : "suite",
     "value" : "test_dac"
@@ -98,6 +98,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2f667d29c6461e3c.json",
+  "source" : "f10a820244534e09.json",
   "parameterValues" : [ ]
 }

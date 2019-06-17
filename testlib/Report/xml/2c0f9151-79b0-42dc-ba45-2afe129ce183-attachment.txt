@@ -1,0 +1,2 @@
+test_dac.py                361 INFO     START TEST CASE: 设备状态判断的公式
+assertion.py                17 ERROR    statusCode error, expected_code is 200, statusCode is 10005

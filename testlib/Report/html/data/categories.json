@@ -1,5 +1,101 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: ",
+      "children" : [ {
+        "name" : "TestDAC.test_dac_10",
+        "uid" : "ac289bb8b474f9e6",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560506851323,
+          "stop" : 1560506851416,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestDAC.test_dac_11",
+        "uid" : "e907db9ac6e8a9c",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560506851418,
+          "stop" : 1560506851439,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestDAC.test_dac_12",
+        "uid" : "85e148b11704eaff",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560506851442,
+          "stop" : 1560506851463,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestDAC.test_dac_13",
+        "uid" : "7204da2034bc05e2",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560506851466,
+          "stop" : 1560506851488,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestDAC.test_dac_14",
+        "uid" : "5f5954640aeeed30",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560506851492,
+          "stop" : 1560506851513,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestDAC.test_dac_15",
+        "uid" : "83fafed65a77c870",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560506851516,
+          "stop" : 1560506851543,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcd162b570a8b3223f492d623fcdc98d"
+    }, {
+      "name" : "TypeError: string indices must be integers",
+      "children" : [ {
+        "name" : "TestDAC.test_dac_16",
+        "uid" : "a9ece7ccd32c2b1e",
+        "parentUid" : "9e0fec35e34de0c0f155ab626b1d25b3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560506851545,
+          "stop" : 1560506851577,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e0fec35e34de0c0f155ab626b1d25b3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

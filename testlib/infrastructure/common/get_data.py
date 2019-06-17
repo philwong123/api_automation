@@ -1,5 +1,6 @@
-#coding: utf-8
+# -*- coding: utf-8 -*-
 import json
+import logging
 from testlib.infrastructure.utility.operation_excel import OperationExcel
 from testlib.infrastructure.utility.operation_mysql import OperationMysql
 from testlib.infrastructure.common.data_config import GlobalVar as data_config
