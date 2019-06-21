@@ -1,0 +1,97 @@
+{
+  "uid" : "ce4205ae5495936a",
+  "name" : "TestDAC.test_dac_08",
+  "fullName" : "test_dac.TestDAC.test_dac_08",
+  "historyId" : "46fa2380130be4f889137b8ced8389ba",
+  "time" : {
+    "start" : 1560933341424,
+    "stop" : 1560933341487,
+    "duration" : 63
+  },
+  "description" : "\n        用例描述：8. 获取单台设备的信息,\"app\": \"25\"\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：8. 获取单台设备的信息,&quot;app&quot;: &quot;25&quot;\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "reponse",
+      "time" : {
+        "start" : 1560933341426,
+        "stop" : 1560933341487,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "56cbf544f21724d4",
+      "name" : "Captured log call",
+      "source" : "56cbf544f21724d4.txt",
+      "type" : "text/plain",
+      "size" : 211
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DAC接口"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Admin-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "story",
+    "value" : "单台设备的信息"
+  }, {
+    "name" : "thread",
+    "value" : "10128-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_dac"
+  }, {
+    "name" : "testClass",
+    "value" : "test_dac"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestDAC.test_dac_08"
+  }, {
+    "name" : "package",
+    "value" : "test_dac"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce4205ae5495936a.json",
+  "parameterValues" : [ ]
+}

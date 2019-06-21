@@ -1,0 +1,3 @@
+test_dac.py                361 INFO     START TEST CASE: 设备状态判断的公式
+test_dac.py                 23 INFO     RESPONSE: {'error': "'builtin_function_or_method' object is not subscriptable", 'returnCode': '10005'}
+assertion.py                17 ERROR    statusCode error, expected_code is 200, statusCode is 10005

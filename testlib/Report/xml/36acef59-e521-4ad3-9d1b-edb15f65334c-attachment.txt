@@ -1,1 +1,0 @@
-test_dac.py                 96 INFO     START TEST CASE: 设备信息表

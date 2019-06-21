@@ -1,15 +1,48 @@
 {
-  "total" : 1,
+  "total" : 4,
   "items" : [ {
     "uid" : "47537086d76b6b18033f1c90cdb36c4f",
     "name" : "DAC接口",
     "statistic" : {
-      "failed" : 7,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 16
+      "total" : 9
+    }
+  }, {
+    "uid" : "832c25514b8c7e509eba5de1e4d2ce38",
+    "name" : "DAC接口--机器人报表",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "7f45948295a3e419d7279c9360954dbb",
+    "name" : "DAC接口--时间状态统计表",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "bd2b3703e0692f5b179ec4a4f3c3f824",
+    "name" : "DAC接口--设备产量效率统计报表",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

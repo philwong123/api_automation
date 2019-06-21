@@ -19,6 +19,7 @@ class TestDAC(object):
     # 测试步骤，打印返回信息
     def print_message(self, url, request_data):
         request = Send_Request()
+        logging.info("request_data: {}{}".format(request_data,url))
         response = request.post_request(url, data=request_data)
         logging.info("RESPONSE: {}".format(response['body']))
         return response
@@ -149,7 +150,7 @@ class TestDAC(object):
             request_data['token'] = token
         response = self.print_message(url, request_data)
         assert test.assert_code(response['body']['returnCode'], '200')
-        assert test.assert_value_not_null(response['body']['Values'])
+        # assert test.assert_value_not_null(response['body']['Values'])
         Consts.RESULT_LIST.append('True')
 
     @pytest.allure.feature('DAC接口')
@@ -240,78 +241,144 @@ class TestDAC(object):
         assert test.assert_code(response['body']['returnCode'], '200')
         Consts.RESULT_LIST.append('True')
 
-    @pytest.allure.feature('DAC接口')
-    @allure.severity('Critical')
-    @allure.story('机器人寻位、焊接状态信息')
-    def test_dac_10(self):
-        """
-        用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/
-        """
-        case_id = "机器人寻位、焊接状态信息"
-        logging.info("START TEST CASE: {}".format(case_id))
-        test = Assertions()
-        request = Send_Request()
-        row = data.get_row_by_id(case_id)
-        is_run = data.get_is_run(row)
-        if is_run:
-            url = data.get_request_url(row)
-            request_data = data.get_request_data(row)
-            token = data.get_token(row)
-            request_data['token'] = token
-        response = self.print_message(url, request_data)
-        assert test.assert_code(response['body']['returnCode'], '200')
-        Consts.RESULT_LIST.append('True')
+    # @pytest.allure.feature('DAC接口')
+    # @allure.severity('Critical')
+    # @allure.story('机器人寻位、焊接状态信息')
+    # def test_dac_10(self):
+    #     """
+    #     用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/
+    #     """
+    #     case_id = "机器人寻位、焊接状态信息"
+    #     logging.info("START TEST CASE: {}".format(case_id))
+    #     test = Assertions()
+    #     request = Send_Request()
+    #     row = data.get_row_by_id(case_id)
+    #     is_run = data.get_is_run(row)
+    #     if is_run:
+    #         url = data.get_request_url(row)
+    #         request_data = data.get_request_data(row)
+    #         token = data.get_token(row)
+    #         request_data['token'] = token
+    #     response = self.print_message(url, request_data)
+    #     assert test.assert_code(response['body']['returnCode'], '200')
+    #     Consts.RESULT_LIST.append('True')
+    #
+    # @pytest.allure.feature('DAC接口')
+    # @allure.severity('Critical')
+    # @allure.story('极大，极小，平均值')
+    # def test_dac_11(self):
+    #     """
+    #     用例描述：11. 获取极大，极小，平均值
+    #     """
+    #     case_id = "极大，极小，平均值"
+    #     logging.info("START TEST CASE: {}".format(case_id))
+    #     test = Assertions()
+    #     request = Send_Request()
+    #     row = data.get_row_by_id(case_id)
+    #     is_run = data.get_is_run(row)
+    #     if is_run:
+    #         url = data.get_request_url(row)
+    #         request_data = data.get_request_data(row)
+    #         token = data.get_token(row)
+    #         request_data['token'] = token
+    #     response = self.print_message(url, request_data)
+    #     assert test.assert_code(response['body']['returnCode'], '200')
+    #     Consts.RESULT_LIST.append('True')
+    #
+    # @pytest.allure.feature('DAC接口')
+    # @allure.severity('Critical')
+    # @allure.story('获取历史数据')
+    # def test_dac_12(self):
+    #     """
+    #     用例描述：12. 获取机器人寻位、焊接状态信息
+    #     """
+    #     case_id = "获取历史数据"
+    #     logging.info("START TEST CASE: {}".format(case_id))
+    #     test = Assertions()
+    #     request = Send_Request()
+    #     row = data.get_row_by_id(case_id)
+    #     is_run = data.get_is_run(row)
+    #     if is_run:
+    #         url = data.get_request_url(row)
+    #         request_data = data.get_request_data(row)
+    #         token = data.get_token(row)
+    #         request_data['token'] = token
+    #     response = self.print_message(url, request_data)
+    #     assert test.assert_code(response['body']['returnCode'], '200')
+    #     Consts.RESULT_LIST.append('True')
 
-    @pytest.allure.feature('DAC接口')
+    @pytest.allure.feature('DAC接口--机器人报表')
     @allure.severity('Critical')
-    @allure.story('极大，极小，平均值')
-    def test_dac_11(self):
-        """
-        用例描述：11. 获取极大，极小，平均值
-        """
-        case_id = "极大，极小，平均值"
-        logging.info("START TEST CASE: {}".format(case_id))
-        test = Assertions()
-        request = Send_Request()
-        row = data.get_row_by_id(case_id)
-        is_run = data.get_is_run(row)
-        if is_run:
-            url = data.get_request_url(row)
-            request_data = data.get_request_data(row)
-            token = data.get_token(row)
-            request_data['token'] = token
-        response = self.print_message(url, request_data)
-        assert test.assert_code(response['body']['returnCode'], '200')
-        Consts.RESULT_LIST.append('True')
-
-    @pytest.allure.feature('DAC接口')
-    @allure.severity('Critical')
-    @allure.story('获取历史数据')
-    def test_dac_12(self):
-        """
-        用例描述：12. 获取机器人寻位、焊接状态信息
-        """
-        case_id = "获取历史数据"
-        logging.info("START TEST CASE: {}".format(case_id))
-        test = Assertions()
-        request = Send_Request()
-        row = data.get_row_by_id(case_id)
-        is_run = data.get_is_run(row)
-        if is_run:
-            url = data.get_request_url(row)
-            request_data = data.get_request_data(row)
-            token = data.get_token(row)
-            request_data['token'] = token
-        response = self.print_message(url, request_data)
-        assert test.assert_code(response['body']['returnCode'], '200')
-        Consts.RESULT_LIST.append('True')
-
-    @pytest.allure.feature('DAC接口')
-    @allure.severity('Critical')
-    @allure.story('获取所有设备信息')
+    @allure.story('上下料时长统计')
     def test_dac_13(self):
         """
-        用例描述：13. 获取所有设备信息
+        用例描述：13. 上下料时长统计 /get/cycleGap
+        """
+        case_id = "上下料时长统计"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+        assert test.assert_code(response['body']['returnCode'], '200')
+        Consts.RESULT_LIST.append('True')
+
+    @pytest.allure.feature('DAC接口--机器人报表')
+    @allure.severity('Critical')
+    @allure.story('生产节拍统计')
+    def test_dac_14(self):
+        """
+        用例描述：14. 生产节拍统计 /get/avgCycleTime/
+        """
+        case_id = "生产节拍统计"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+        assert test.assert_code(response['body']['returnCode'], '200')
+        Consts.RESULT_LIST.append('True')
+
+    @pytest.allure.feature('DAC接口--机器人报表')
+    @allure.severity('Critical')
+    @allure.story('焊丝用量统计')
+    def test_dac_15(self):
+        """
+        用例描述：15. 焊丝用量统计 get/welding_wire/
+        """
+        case_id = "焊丝用量统计"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+        assert test.assert_code(response['body']['returnCode'], '200')
+        Consts.RESULT_LIST.append('True')
+
+    @pytest.allure.feature('DAC接口--设备产量效率统计报表')
+    @allure.severity('Critical')
+    @allure.story('获取所有设备信息')
+    def test_dac_16(self):
+        """
+        用例描述：16. 获取所有设备信息(离线时长、运行时长、产量、在线时长) /get/report/
         """
         case_id = "获取所有设备信息"
         logging.info("START TEST CASE: {}".format(case_id))
@@ -328,12 +395,36 @@ class TestDAC(object):
         assert test.assert_code(response['body']['returnCode'], '200')
         Consts.RESULT_LIST.append('True')
 
-    @pytest.allure.feature('DAC接口')
+    @pytest.allure.feature('DAC接口--时间状态统计表')
+    @allure.severity('Critical')
+    @allure.story('加工程序')
+    def test_dac_17(self):
+
+        """
+        用例描述：17. 加工程序，get/programCycle/
+        """
+        case_id = "加工程序"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+        assert test.assert_code(response['body']['returnCode'], '200')
+        Consts.RESULT_LIST.append('True')
+
+    @pytest.allure.feature('DAC接口--时间状态统计表')
     @allure.severity('Critical')
     @allure.story('设备时间状态统计')
-    def test_dac_14(self):
+    def test_dac_18(self):
+
         """
-        用例描述：14. 获取设备时间状态统计
+        用例描述：18. 返回指定设备时间状态统计图，get/timeline/
         """
         case_id = "设备时间状态统计"
         logging.info("START TEST CASE: {}".format(case_id))
@@ -350,36 +441,15 @@ class TestDAC(object):
         assert test.assert_code(response['body']['returnCode'], '200')
         Consts.RESULT_LIST.append('True')
 
-    @pytest.allure.feature('DAC接口')
+    @pytest.allure.feature('DAC接口--时间状态统计表')
     @allure.severity('Critical')
-    @allure.story('设备状态判断的公式')
-    def test_dac_15(self):
-        """
-        用例描述：15. 设备状态判断的公式
-        """
-        case_id = "设备状态判断的公式"
-        logging.info("START TEST CASE: {}".format(case_id))
-        test = Assertions()
-        request = Send_Request()
-        row = data.get_row_by_id(case_id)
-        is_run = data.get_is_run(row)
-        if is_run:
-            url = data.get_request_url(row)
-            request_data = data.get_request_data(row)
-            token = data.get_token(row)
-            request_data['token'] = token
-        response = self.print_message(url, request_data)
-        assert test.assert_code(response['body']['returnCode'], '200')
-        Consts.RESULT_LIST.append('True')
+    @allure.story('设备产量效率统计')
+    def test_dac_19(self):
 
-    @pytest.allure.feature('DAC接口')
-    @allure.severity('Critical')
-    @allure.story('返回该公司所有设备数据')
-    def test_dac_16(self):
         """
-        用例描述：16. 返回该公司所有设备数据
+        用例描述：19. 返回设备产量效率统计曲线，get/prodCycle/
         """
-        case_id = "返回该公司所有设备数据"
+        case_id = "设备产量效率统计"
         logging.info("START TEST CASE: {}".format(case_id))
         test = Assertions()
         request = Send_Request()

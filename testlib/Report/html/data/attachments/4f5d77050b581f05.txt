@@ -1,2 +1,0 @@
-test_dac.py                317 INFO     START TEST CASE: 获取所有设备信息
-assertion.py                17 ERROR    statusCode error, expected_code is 200, statusCode is 10002

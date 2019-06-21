@@ -1,0 +1,105 @@
+{
+  "uid" : "e6ba34c6ad499c4d",
+  "name" : "TestDAC.test_dac_16",
+  "fullName" : "test_dac.TestDAC.test_dac_16",
+  "historyId" : "9a6313c5105b599b2c929270e4c261d0",
+  "time" : {
+    "start" : 1560933341819,
+    "stop" : 1560933341859,
+    "duration" : 40
+  },
+  "description" : "\n        用例描述：16. 返回该公司所有设备数据\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：16. 返回该公司所有设备数据\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "TypeError: string indices must be integers",
+  "statusTrace" : "self = <test_dac.TestDAC object at 0x0000000004E84438>\n\n    @pytest.allure.feature('DAC接口')\n    @allure.severity('Critical')\n    @allure.story('返回该公司所有设备数据')\n    def test_dac_16(self):\n        \"\"\"\n            用例描述：16. 返回该公司所有设备数据\n            \"\"\"\n        case_id = \"返回该公司所有设备数据\"\n        logging.info(\"START TEST CASE: {}\".format(case_id))\n        test = Assertions()\n        request = Send_Request()\n        row = data.get_row_by_id(case_id)\n        is_run = data.get_is_run(row)\n        if is_run:\n            url = data.get_request_url(row)\n            request_data = data.get_request_data(row)\n            token = data.get_token(row)\n            request_data['token'] = token\n        response = self.print_message(url, request_data)\n>       assert test.assert_code(response['body']['returnCode'], '200')\nE       TypeError: string indices must be integers\n\nD:\\demo\\testlib\\case\\test_dac.py:394: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: string indices must be integers",
+    "statusTrace" : "self = <test_dac.TestDAC object at 0x0000000004E84438>\n\n    @pytest.allure.feature('DAC接口')\n    @allure.severity('Critical')\n    @allure.story('返回该公司所有设备数据')\n    def test_dac_16(self):\n        \"\"\"\n            用例描述：16. 返回该公司所有设备数据\n            \"\"\"\n        case_id = \"返回该公司所有设备数据\"\n        logging.info(\"START TEST CASE: {}\".format(case_id))\n        test = Assertions()\n        request = Send_Request()\n        row = data.get_row_by_id(case_id)\n        is_run = data.get_is_run(row)\n        if is_run:\n            url = data.get_request_url(row)\n            request_data = data.get_request_data(row)\n            token = data.get_token(row)\n            request_data['token'] = token\n        response = self.print_message(url, request_data)\n>       assert test.assert_code(response['body']['returnCode'], '200')\nE       TypeError: string indices must be integers\n\nD:\\demo\\testlib\\case\\test_dac.py:394: TypeError",
+    "steps" : [ {
+      "name" : "reponse",
+      "time" : {
+        "start" : 1560933341821,
+        "stop" : 1560933341846,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3184e1f6983b85ab",
+      "name" : "Captured log call",
+      "source" : "3184e1f6983b85ab.txt",
+      "type" : "text/plain",
+      "size" : 140
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DAC接口"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Admin-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "story",
+    "value" : "返回该公司所有设备数据"
+  }, {
+    "name" : "thread",
+    "value" : "10128-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_dac"
+  }, {
+    "name" : "testClass",
+    "value" : "test_dac"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestDAC.test_dac_16"
+  }, {
+    "name" : "package",
+    "value" : "test_dac"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e6ba34c6ad499c4d.json",
+  "parameterValues" : [ ]
+}

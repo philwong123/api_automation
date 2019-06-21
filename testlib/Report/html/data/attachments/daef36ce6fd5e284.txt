@@ -1,0 +1,3 @@
+test_dac.py                453 INFO     START TEST CASE: 设备产量效率统计
+test_dac.py                 22 INFO     request_data: {'machCode': "['test2fotslj']", 'date': '2019-06-04', 'token': '313f45d4a43f4fc5cd113d1dd4870277b98c7310'}http://192.168.3.232:8766/get/prodCycle/
+test_dac.py                 24 INFO     RESPONSE: {'type': 'prodCycle', 'test2fotslj': [{'duration': '0 days 13:50:34', 'startTime': '2019-06-04 10:09:26', 'endTime': '2019-06-05 00:00:00', 'task': 'test2fotslj', 'productivity': '未完成'}], 'returnCode': '200'}

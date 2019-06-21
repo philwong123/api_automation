@@ -1,0 +1,2 @@
+test_dac.py                185 INFO     START TEST CASE: 单台设备实时信息
+test_dac.py                 23 INFO     RESPONSE: {'machCode': 'test2fotslj', 'type': 'Machine', 'Values': [{'machCode': 'test2fotslj', 'timeLengthSum': '', 'machineStatus': 'standby', 'machName': 'test2fotslj', 'gatherTime': '2019-06-19 16:35:39', 'gateMac': '01:E5:5E:68:06:14', 'id': '100'}], 'returnCode': '200', 'time': '2019-06-19 16:35:43'}

@@ -25,11 +25,10 @@ if __name__ == '__main__':
     path = config.get_project_path("project_path")
     xml_report_path = path + "/Report/xml"
     html_report_path = path + "/Report/html"
-
     # 定义测试集
     allure_list = '--allure_features=DAC'
     # args = ['-s', '-q', r'D:\demo\testlib\case', '--alluredir', xml_report_path, allure_list]
-    args = ['-s', '-q', r'D:\demo\testlib\case', '--alluredir', xml_report_path]
+    args = ['-s', '-q', r'D:\twinkle\testlib\case', '--alluredir', xml_report_path]
     logging.info('执行用例集为：{}'.format(allure_list))
     self_args = sys.argv[1:]
     # 执行测试用例

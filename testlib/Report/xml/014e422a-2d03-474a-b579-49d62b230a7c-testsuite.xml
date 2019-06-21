@@ -1,0 +1,424 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1561099240174" stop="1561099250625">
+  <name>test_dac</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1561099240174" status="passed" stop="1561099240277">
+      <description>
+        用例描述：1. 获取实时数据，"app": "1"
+        </description>
+      <name>TestDAC.test_dac_01</name>
+      <attachments>
+        <attachment source="47a44100-41fd-4d4e-9907-e6920e92b467-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="de55df97-9d4e-4d22-a228-349487f8781d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="实时数据接口"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099240177" status="passed" stop="1561099240276">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099240280" status="passed" stop="1561099240337">
+      <description>
+        用例描述：2. 获取所有设备历史信息，根据用户传入的token，采集参数，时间段以及设备编号获取该时间段内该设备采集参数的所有采集记录
+        "app": "2"
+        </description>
+      <name>TestDAC.test_dac_02</name>
+      <attachments>
+        <attachment source="d63b8855-cd3a-4043-87f5-0268f4c0db5b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Block"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="历史数据接口"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099240281" status="passed" stop="1561099240337">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099240339" status="passed" stop="1561099240449">
+      <description>
+        用例描述：3. 获取所有设备的信息，"app": "12"
+        </description>
+      <name>TestDAC.test_dac_03</name>
+      <attachments>
+        <attachment source="ec24f6f6-f180-42eb-9850-35ed29fe147a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="设备信息表"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099240344" status="passed" stop="1561099240448">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099240451" status="passed" stop="1561099240580">
+      <description>
+        用例描述：4. 获取网关信息表，"app": "13"
+        </description>
+      <name>TestDAC.test_dac_04</name>
+      <attachments>
+        <attachment source="c0e71beb-bcf6-4de7-8543-aac5f6dd8624-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="网关信息表"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099240452" status="passed" stop="1561099240580">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099240582" status="passed" stop="1561099240820">
+      <description>
+        用例描述：5. 获取告警数据,"app": "66"
+        </description>
+      <name>TestDAC.test_dac_05</name>
+      <attachments>
+        <attachment source="889d7d96-a892-4a58-a4d0-ccf87458fe11-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="告警数据接口"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099240584" status="passed" stop="1561099240819">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099240821" status="passed" stop="1561099241694">
+      <description>
+        用例描述：6. 获取变量信息表, "app": "15"
+        </description>
+      <name>TestDAC.test_dac_06</name>
+      <attachments>
+        <attachment source="6fe0fbc1-5bff-461a-869c-3b823786a2fb-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="变量信息表"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099240823" status="passed" stop="1561099241693">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099241699" status="passed" stop="1561099241783">
+      <description>
+        用例描述：7. 获取单台设备实时信息, "app": "16"
+        </description>
+      <name>TestDAC.test_dac_07</name>
+      <attachments>
+        <attachment source="5bb2a170-ac11-4d5c-a9a2-81ac489457a4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="单台设备实时信息"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099241700" status="passed" stop="1561099241783">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099241786" status="passed" stop="1561099241839">
+      <description>
+        用例描述：8. 获取单台设备的信息,"app": "25"
+        </description>
+      <name>TestDAC.test_dac_08</name>
+      <attachments>
+        <attachment source="172609bf-abaa-400a-9e6a-ef088f234c98-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="单台设备的信息"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099241787" status="passed" stop="1561099241838">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099241841" status="passed" stop="1561099241890">
+      <description>
+        用例描述：9. 获取设备产量,"app": "23"
+        </description>
+      <name>TestDAC.test_dac_09</name>
+      <attachments>
+        <attachment source="e3e3c3ae-2b75-4738-baac-4d7a848646a8-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="story" value="设备产量"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099241842" status="passed" stop="1561099241889">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099241892" status="passed" stop="1561099242341">
+      <description>
+        用例描述：13. 上下料时长统计 /get/cycleGap
+        </description>
+      <name>TestDAC.test_dac_13</name>
+      <attachments>
+        <attachment source="f2269d49-60de-4036-b345-7ec40034aaae-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口--机器人报表"/>
+        <label name="story" value="上下料时长统计"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099241893" status="passed" stop="1561099242340">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099242342" status="passed" stop="1561099242604">
+      <description>
+        用例描述：14. 生产节拍统计 /get/avgCycleTime/
+        </description>
+      <name>TestDAC.test_dac_14</name>
+      <attachments>
+        <attachment source="5092dcd2-076d-428d-892b-12925a9110c5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口--机器人报表"/>
+        <label name="story" value="生产节拍统计"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099242344" status="passed" stop="1561099242604">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099242606" status="passed" stop="1561099242843">
+      <description>
+        用例描述：15. 焊丝用量统计 get/welding_wire/
+        </description>
+      <name>TestDAC.test_dac_15</name>
+      <attachments>
+        <attachment source="9f8cce09-c25d-4547-a754-df5616b1be13-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口--机器人报表"/>
+        <label name="story" value="焊丝用量统计"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099242607" status="passed" stop="1561099242843">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099242845" status="passed" stop="1561099243075">
+      <description>
+        用例描述：16. 获取所有设备信息(离线时长、运行时长、产量、在线时长) /get/report/
+        </description>
+      <name>TestDAC.test_dac_16</name>
+      <attachments>
+        <attachment source="732d5e30-0992-490e-9ab0-6c47d529a40e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口--设备产量效率统计报表"/>
+        <label name="story" value="获取所有设备信息"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099242846" status="passed" stop="1561099243075">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099243077" status="passed" stop="1561099243211">
+      <description>
+        用例描述：17. 加工程序，get/programCycle/
+        </description>
+      <name>TestDAC.test_dac_17</name>
+      <attachments>
+        <attachment source="966350ea-f739-4784-b94d-0e80ce0e9e58-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口--时间状态统计表"/>
+        <label name="story" value="加工程序"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099243078" status="passed" stop="1561099243211">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099243213" status="passed" stop="1561099249684">
+      <description>
+        用例描述：18. 返回指定设备时间状态统计图，get/timeline/
+        </description>
+      <name>TestDAC.test_dac_18</name>
+      <attachments>
+        <attachment source="afcd1edf-2319-4c3a-9f10-d54ee4465085-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口--时间状态统计表"/>
+        <label name="story" value="设备时间状态统计"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099243214" status="passed" stop="1561099249684">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1561099249686" status="passed" stop="1561099250625">
+      <description>
+        用例描述：19. 返回设备产量效率统计曲线，get/prodCycle/
+        </description>
+      <name>TestDAC.test_dac_19</name>
+      <attachments>
+        <attachment source="0f572814-e83e-484d-9d09-7bdd767046e4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="feature" value="DAC接口--时间状态统计表"/>
+        <label name="story" value="设备产量效率统计"/>
+        <label name="thread" value="10688-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1561099249687" status="passed" stop="1561099250625">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,3 @@
+test_dac.py                295 INFO     START TEST CASE: 获取历史数据
+test_dac.py                 23 INFO     RESPONSE: {'returnCode': '10012'}
+assertion.py                17 ERROR    statusCode error, expected_code is 200, statusCode is 10012

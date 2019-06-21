@@ -1,2 +1,0 @@
-test_dac.py                273 INFO     START TEST CASE: 极大，极小，平均值
-assertion.py                17 ERROR    statusCode error, expected_code is 200, statusCode is 10012

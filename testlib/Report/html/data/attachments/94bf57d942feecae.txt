@@ -1,0 +1,3 @@
+test_dac.py                339 INFO     START TEST CASE: 设备时间状态统计
+test_dac.py                 23 INFO     RESPONSE: {'returnCode': '10011'}
+assertion.py                17 ERROR    statusCode error, expected_code is 200, statusCode is 10011

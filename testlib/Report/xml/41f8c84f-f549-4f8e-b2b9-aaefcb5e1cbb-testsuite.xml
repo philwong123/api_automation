@@ -1,0 +1,680 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1560933339673" stop="1560933341859">
+  <name>test_dac</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1560933339673" status="passed" stop="1560933339753">
+      <description>
+        用例描述：1. 获取实时数据，"app": "1"
+        </description>
+      <name>TestDAC.test_dac_01</name>
+      <attachments>
+        <attachment source="5bf8762f-d15f-441f-813f-2ed9b71112f9-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="f814a3b9-5f8e-48be-b37f-7823e98ce6c5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="实时数据接口"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933339676" status="passed" stop="1560933339753">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933339756" status="passed" stop="1560933339864">
+      <description>
+        用例描述：2. 获取所有设备历史信息，根据用户传入的token，采集参数，时间段以及设备编号获取该时间段内该设备采集参数的所有采集记录
+        "app": "2"
+        </description>
+      <name>TestDAC.test_dac_02</name>
+      <attachments>
+        <attachment source="d78b4a6c-6d4c-47f4-90f6-a704ab245954-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Block"/>
+        <label name="story" value="历史数据接口"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933339758" status="passed" stop="1560933339863">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933339866" status="passed" stop="1560933339979">
+      <description>
+        用例描述：3. 获取所有设备的信息，"app": "12"
+        </description>
+      <name>TestDAC.test_dac_03</name>
+      <attachments>
+        <attachment source="f5d1068a-c14c-4e1e-8915-cbe15a256bfe-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="设备信息表"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933339867" status="passed" stop="1560933339979">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933339981" status="passed" stop="1560933340278">
+      <description>
+        用例描述：4. 获取网关信息表，"app": "13"
+        </description>
+      <name>TestDAC.test_dac_04</name>
+      <attachments>
+        <attachment source="13068b97-b6cd-4b23-9ad7-0cd0c5f3acb4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="网关信息表"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933339983" status="passed" stop="1560933340278">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933340280" status="passed" stop="1560933340486">
+      <description>
+        用例描述：5. 获取告警数据,"app": "66"
+        </description>
+      <name>TestDAC.test_dac_05</name>
+      <attachments>
+        <attachment source="5c0aff06-be40-4956-8a13-7ae6f0913945-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="告警数据接口"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933340282" status="passed" stop="1560933340486">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933340488" status="passed" stop="1560933341341">
+      <description>
+        用例描述：6. 获取变量信息表, "app": "15"
+        </description>
+      <name>TestDAC.test_dac_06</name>
+      <attachments>
+        <attachment source="42fc427b-f39c-4f1d-96b6-6235266fcf4c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="变量信息表"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933340490" status="passed" stop="1560933341339">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341346" status="passed" stop="1560933341422">
+      <description>
+        用例描述：7. 获取单台设备实时信息, "app": "16"
+        </description>
+      <name>TestDAC.test_dac_07</name>
+      <attachments>
+        <attachment source="86df50b4-86c0-41c8-8527-b7dbd33b233d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="单台设备实时信息"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341347" status="passed" stop="1560933341422">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341424" status="passed" stop="1560933341487">
+      <description>
+        用例描述：8. 获取单台设备的信息,"app": "25"
+        </description>
+      <name>TestDAC.test_dac_08</name>
+      <attachments>
+        <attachment source="6e8a2dab-55bb-4eeb-9cc9-a63b4a573af0-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="单台设备的信息"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341426" status="passed" stop="1560933341487">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341489" status="passed" stop="1560933341565">
+      <description>
+        用例描述：9. 获取设备产量,"app": "23"
+        </description>
+      <name>TestDAC.test_dac_09</name>
+      <attachments>
+        <attachment source="439150b5-0212-42ec-9114-6bf38748b8ac-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="设备产量"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341491" status="passed" stop="1560933341565">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341567" status="failed" stop="1560933341686">
+      <description>
+        用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/
+        </description>
+      <name>TestDAC.test_dac_10</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;test_dac.TestDAC object at 0x0000000004BC7668&gt;
+
+    @pytest.allure.feature('DAC接口')
+    @allure.severity('Critical')
+    @allure.story('机器人寻位、焊接状态信息')
+    def test_dac_10(self):
+        """
+            用例描述：10. 获取机器人寻位、焊接状态信息, /get/robotStatus/
+            """
+        case_id = "机器人寻位、焊接状态信息"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+&gt;       assert test.assert_code(response['body']['returnCode'], '200')
+
+D:\demo\testlib\case\test_dac.py:262: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testlib.infrastructure.common.assertion.Assertions object at 0x0000000004BC7F60&gt;
+code = '10005', expected_code = '200'
+
+    def assert_code(self, code, expected_code):
+        try:
+&gt;           assert code == expected_code
+E           AssertionError
+
+..\infrastructure\common\assertion.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="4c3bc8e1-f585-439f-9f53-0a4b17186794-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="机器人寻位、焊接状态信息"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341569" status="passed" stop="1560933341594">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341688" status="failed" stop="1560933341712">
+      <description>
+        用例描述：11. 获取极大，极小，平均值
+        </description>
+      <name>TestDAC.test_dac_11</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;test_dac.TestDAC object at 0x0000000004BD2978&gt;
+
+    @pytest.allure.feature('DAC接口')
+    @allure.severity('Critical')
+    @allure.story('极大，极小，平均值')
+    def test_dac_11(self):
+        """
+            用例描述：11. 获取极大，极小，平均值
+            """
+        case_id = "极大，极小，平均值"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+&gt;       assert test.assert_code(response['body']['returnCode'], '200')
+
+D:\demo\testlib\case\test_dac.py:284: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testlib.infrastructure.common.assertion.Assertions object at 0x0000000004BD2E48&gt;
+code = '10012', expected_code = '200'
+
+    def assert_code(self, code, expected_code):
+        try:
+&gt;           assert code == expected_code
+E           AssertionError
+
+..\infrastructure\common\assertion.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="9de0de76-b19b-461b-b696-8ace3384482e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="极大，极小，平均值"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341690" status="passed" stop="1560933341698">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341714" status="failed" stop="1560933341735">
+      <description>
+        用例描述：12. 获取机器人寻位、焊接状态信息
+        </description>
+      <name>TestDAC.test_dac_12</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;test_dac.TestDAC object at 0x0000000004E869E8&gt;
+
+    @pytest.allure.feature('DAC接口')
+    @allure.severity('Critical')
+    @allure.story('获取历史数据')
+    def test_dac_12(self):
+        """
+            用例描述：12. 获取机器人寻位、焊接状态信息
+            """
+        case_id = "获取历史数据"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+&gt;       assert test.assert_code(response['body']['returnCode'], '200')
+
+D:\demo\testlib\case\test_dac.py:306: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testlib.infrastructure.common.assertion.Assertions object at 0x0000000004E86BE0&gt;
+code = '10012', expected_code = '200'
+
+    def assert_code(self, code, expected_code):
+        try:
+&gt;           assert code == expected_code
+E           AssertionError
+
+..\infrastructure\common\assertion.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="2414df99-6659-42a7-8ceb-11247d76683a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="获取历史数据"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341715" status="passed" stop="1560933341722">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341737" status="failed" stop="1560933341762">
+      <description>
+        用例描述：13. 获取所有设备信息
+        </description>
+      <name>TestDAC.test_dac_13</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;test_dac.TestDAC object at 0x0000000004E80240&gt;
+
+    @pytest.allure.feature('DAC接口')
+    @allure.severity('Critical')
+    @allure.story('获取所有设备信息')
+    def test_dac_13(self):
+        """
+            用例描述：13. 获取所有设备信息
+            """
+        case_id = "获取所有设备信息"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+&gt;       assert test.assert_code(response['body']['returnCode'], '200')
+
+D:\demo\testlib\case\test_dac.py:328: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testlib.infrastructure.common.assertion.Assertions object at 0x0000000004E801D0&gt;
+code = '10002', expected_code = '200'
+
+    def assert_code(self, code, expected_code):
+        try:
+&gt;           assert code == expected_code
+E           AssertionError
+
+..\infrastructure\common\assertion.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="2885febe-2ee7-4ae9-a8d9-75c0eec6583a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="获取所有设备信息"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341738" status="passed" stop="1560933341750">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341764" status="failed" stop="1560933341791">
+      <description>
+        用例描述：14. 获取设备时间状态统计
+        </description>
+      <name>TestDAC.test_dac_14</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;test_dac.TestDAC object at 0x0000000004EA4358&gt;
+
+    @pytest.allure.feature('DAC接口')
+    @allure.severity('Critical')
+    @allure.story('设备时间状态统计')
+    def test_dac_14(self):
+        """
+            用例描述：14. 获取设备时间状态统计
+            """
+        case_id = "设备时间状态统计"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+&gt;       assert test.assert_code(response['body']['returnCode'], '200')
+
+D:\demo\testlib\case\test_dac.py:350: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testlib.infrastructure.common.assertion.Assertions object at 0x0000000004EA40F0&gt;
+code = '10011', expected_code = '200'
+
+    def assert_code(self, code, expected_code):
+        try:
+&gt;           assert code == expected_code
+E           AssertionError
+
+..\infrastructure\common\assertion.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="17bbfb77-58c6-434b-99fb-82d7bea1e787-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="设备时间状态统计"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341765" status="passed" stop="1560933341776">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341794" status="failed" stop="1560933341816">
+      <description>
+        用例描述：15. 设备状态判断的公式
+        </description>
+      <name>TestDAC.test_dac_15</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;test_dac.TestDAC object at 0x0000000004E86908&gt;
+
+    @pytest.allure.feature('DAC接口')
+    @allure.severity('Critical')
+    @allure.story('设备状态判断的公式')
+    def test_dac_15(self):
+        """
+            用例描述：15. 设备状态判断的公式
+            """
+        case_id = "设备状态判断的公式"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+&gt;       assert test.assert_code(response['body']['returnCode'], '200')
+
+D:\demo\testlib\case\test_dac.py:372: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testlib.infrastructure.common.assertion.Assertions object at 0x0000000004E86BE0&gt;
+code = '10005', expected_code = '200'
+
+    def assert_code(self, code, expected_code):
+        try:
+&gt;           assert code == expected_code
+E           AssertionError
+
+..\infrastructure\common\assertion.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="efa8ff2b-abfb-4391-afb4-1568228587f3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="设备状态判断的公式"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341795" status="passed" stop="1560933341802">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1560933341819" status="failed" stop="1560933341859">
+      <description>
+        用例描述：16. 返回该公司所有设备数据
+        </description>
+      <name>TestDAC.test_dac_16</name>
+      <failure>
+        <message>TypeError: string indices must be integers</message>
+        <stack-trace>self = &lt;test_dac.TestDAC object at 0x0000000004E84438&gt;
+
+    @pytest.allure.feature('DAC接口')
+    @allure.severity('Critical')
+    @allure.story('返回该公司所有设备数据')
+    def test_dac_16(self):
+        """
+            用例描述：16. 返回该公司所有设备数据
+            """
+        case_id = "返回该公司所有设备数据"
+        logging.info("START TEST CASE: {}".format(case_id))
+        test = Assertions()
+        request = Send_Request()
+        row = data.get_row_by_id(case_id)
+        is_run = data.get_is_run(row)
+        if is_run:
+            url = data.get_request_url(row)
+            request_data = data.get_request_data(row)
+            token = data.get_token(row)
+            request_data['token'] = token
+        response = self.print_message(url, request_data)
+&gt;       assert test.assert_code(response['body']['returnCode'], '200')
+E       TypeError: string indices must be integers
+
+D:\demo\testlib\case\test_dac.py:394: TypeError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="71e9051d-3612-4e3a-9553-8fdc1eacd4ff-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="Critical"/>
+        <label name="story" value="返回该公司所有设备数据"/>
+        <label name="feature" value="DAC接口"/>
+        <label name="thread" value="10128-MainThread"/>
+        <label name="host" value="Admin-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560933341821" status="passed" stop="1560933341846">
+          <name>reponse</name>
+          <title>reponse</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -4,10 +4,10 @@
     "uid" : "1a170f6650d13a0b360f8f1a2b4b2d20",
     "name" : "test_dac",
     "statistic" : {
-      "failed" : 7,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 16,
       "unknown" : 0,
       "total" : 16
     }

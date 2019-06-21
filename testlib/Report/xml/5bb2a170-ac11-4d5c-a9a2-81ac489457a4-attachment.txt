@@ -1,0 +1,3 @@
+test_dac.py                186 INFO     START TEST CASE: 单台设备实时信息
+test_dac.py                 22 INFO     request_data: {'app': '16', 'machCode': 'test2fotslj', 'token': '313f45d4a43f4fc5cd113d1dd4870277b98c7310'}http://192.168.3.232:8766/api/
+test_dac.py                 24 INFO     RESPONSE: {'type': 'Machine', 'machCode': 'test2fotslj', 'Values': [{'gatherTime': '2019-06-21 14:40:39', 'machineStatus': 'online', 'gateMac': '01:E5:5E:68:06:14', 'machCode': 'test2fotslj', 'timeLengthSum': '', 'machName': 'test2fotslj', 'id': '100'}], 'returnCode': '200', 'time': '2019-06-21 14:40:40'}

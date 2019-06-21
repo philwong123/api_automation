@@ -1,1 +1,0 @@
-test_dac.py                163 INFO     START TEST CASE: 变量信息表

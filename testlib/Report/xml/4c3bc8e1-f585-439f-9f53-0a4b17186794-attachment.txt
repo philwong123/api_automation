@@ -1,0 +1,3 @@
+test_dac.py                251 INFO     START TEST CASE: 机器人寻位、焊接状态信息
+test_dac.py                 23 INFO     RESPONSE: {'returnCode': '10005', 'error': "name 'test2fotslj' is not defined"}
+assertion.py                17 ERROR    statusCode error, expected_code is 200, statusCode is 10005

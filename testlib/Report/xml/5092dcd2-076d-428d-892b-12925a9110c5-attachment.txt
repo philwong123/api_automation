@@ -1,0 +1,3 @@
+test_dac.py                340 INFO     START TEST CASE: 生产节拍统计
+test_dac.py                 22 INFO     request_data: {'machCode': "['test2fotslj']", 'startTime': '2019-06-15 00:00:00', 'endTime': '2019-06-15 23:59:59', 'token': '313f45d4a43f4fc5cd113d1dd4870277b98c7310'}http://192.168.3.232:8766/get/avgCycleTime/
+test_dac.py                 24 INFO     RESPONSE: {'type': 'Average Program Cycle Time', 'startTime': '2019-06-15 00:00:00', 'endTime': '2019-06-15 23:59:59', 'returnCode': '200', 'Values': {'test2fotslj': {'-': '0'}}}

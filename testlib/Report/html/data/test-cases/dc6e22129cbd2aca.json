@@ -1,0 +1,97 @@
+{
+  "uid" : "dc6e22129cbd2aca",
+  "name" : "TestDAC.test_dac_13",
+  "fullName" : "test_dac.TestDAC.test_dac_13",
+  "historyId" : "7627c542942b2e900c313d1b3f7162cb",
+  "time" : {
+    "start" : 1561099241892,
+    "stop" : 1561099242341,
+    "duration" : 449
+  },
+  "description" : "\n        用例描述：13. 上下料时长统计 /get/cycleGap\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：13. 上下料时长统计 /get/cycleGap\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "reponse",
+      "time" : {
+        "start" : 1561099241893,
+        "stop" : 1561099242340,
+        "duration" : 447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8b091494bcf1925e",
+      "name" : "Captured log call",
+      "source" : "8b091494bcf1925e.txt",
+      "type" : "text/plain",
+      "size" : 558
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DAC接口--机器人报表"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Admin-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "story",
+    "value" : "上下料时长统计"
+  }, {
+    "name" : "thread",
+    "value" : "10688-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_dac"
+  }, {
+    "name" : "testClass",
+    "value" : "test_dac"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestDAC.test_dac_13"
+  }, {
+    "name" : "package",
+    "value" : "test_dac"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc6e22129cbd2aca.json",
+  "parameterValues" : [ ]
+}

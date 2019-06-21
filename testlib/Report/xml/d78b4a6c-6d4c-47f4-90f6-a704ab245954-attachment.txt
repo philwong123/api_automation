@@ -1,0 +1,2 @@
+test_dac.py                 74 INFO     START TEST CASE: 历史数据
+test_dac.py                 23 INFO     RESPONSE: {'operationValue': 0, 'time': '2019-06-19 16:35:41', 'Values': '0', 'type': 'history', 'machCode': 'test2fotslj', 'returnCode': '200'}

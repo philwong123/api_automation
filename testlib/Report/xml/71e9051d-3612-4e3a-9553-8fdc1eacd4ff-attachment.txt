@@ -1,0 +1,2 @@
+test_dac.py                383 INFO     START TEST CASE: 返回该公司所有设备数据
+test_dac.py                 23 INFO     RESPONSE:

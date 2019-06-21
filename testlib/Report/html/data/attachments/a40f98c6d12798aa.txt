@@ -1,1 +1,0 @@
-test_dac.py                185 INFO     START TEST CASE: 单台设备实时信息

@@ -1,0 +1,97 @@
+{
+  "uid" : "835eded440ced575",
+  "name" : "TestDAC.test_dac_15",
+  "fullName" : "test_dac.TestDAC.test_dac_15",
+  "historyId" : "79745525459a6184112ccd9ea87f1cb6",
+  "time" : {
+    "start" : 1561099242606,
+    "stop" : 1561099242843,
+    "duration" : 237
+  },
+  "description" : "\n        用例描述：15. 焊丝用量统计 get/welding_wire/\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：15. 焊丝用量统计 get/welding_wire/\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "reponse",
+      "time" : {
+        "start" : 1561099242607,
+        "stop" : 1561099242843,
+        "duration" : 236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3805b20380115eb0",
+      "name" : "Captured log call",
+      "source" : "3805b20380115eb0.txt",
+      "type" : "text/plain",
+      "size" : 529
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DAC接口--机器人报表"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Admin-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "story",
+    "value" : "焊丝用量统计"
+  }, {
+    "name" : "thread",
+    "value" : "10688-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_dac"
+  }, {
+    "name" : "testClass",
+    "value" : "test_dac"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestDAC.test_dac_15"
+  }, {
+    "name" : "package",
+    "value" : "test_dac"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "835eded440ced575.json",
+  "parameterValues" : [ ]
+}
